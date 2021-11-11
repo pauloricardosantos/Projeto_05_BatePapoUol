@@ -1,0 +1,62 @@
+.cabecalho{
+    width: 375px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);    
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.cabecalho img{
+    width: 75px;
+    height: 53px;
+    margin-left: 22px;
+}
+.cabecalho ion-icon{
+    width: 45px;
+    height: 45px;
+    margin-right: 22px;
+}
+.mensagens{
+    width: 375px;
+    height: 507px;
+
+    background-color: #E5E5E5;
+}
+.campoEscrita{
+    width: 375px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.campoEscrita input{
+    width: 145px;
+    height: 30px;
+
+    margin-left: 18px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+    border: none;
+}
+.campoEscrita ion-icon{
+    width: 26px;
+    height: 26px;
+    margin-right: 18px;
+}
